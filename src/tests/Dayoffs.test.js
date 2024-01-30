@@ -24,4 +24,8 @@ describe('Testes da tela Dayoffs', () => {
     expect(screen.getByTestId('mytable')).toBeInTheDocument();
   });
 
+  it('Existe botão editar em Dayoffs?', () => {
+    expect(screen.getByTestId('mybtn1')).toBeInTheDocument();
+  });
+
 });
