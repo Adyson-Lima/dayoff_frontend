@@ -28,4 +28,8 @@ describe('Testes da tela Dayoffs', () => {
     expect(screen.getByTestId('mybtn1')).toBeInTheDocument();
   });
 
+  it('Existe botão excluir em Dayoffs?', () => {
+    expect(screen.getByTestId('mybtn2')).toBeInTheDocument();
+  });
+
 });
