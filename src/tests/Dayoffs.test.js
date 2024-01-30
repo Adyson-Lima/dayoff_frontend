@@ -16,4 +16,8 @@ describe('Testes da tela Dayoffs', () => {
     expect(screen.getByTestId('mycard')).toBeInTheDocument();
   });
 
+  it('Existe link Novo em Dayoffs?', () => {
+    expect(screen.getByTestId('mylink')).toBeInTheDocument();
+  });
+
 });
