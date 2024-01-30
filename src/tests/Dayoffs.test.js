@@ -20,4 +20,8 @@ describe('Testes da tela Dayoffs', () => {
     expect(screen.getByTestId('mylink')).toBeInTheDocument();
   });
 
+  it('Existe tabela em Dayoffs?', () => {
+    expect(screen.getByTestId('mytable')).toBeInTheDocument();
+  });
+
 });
